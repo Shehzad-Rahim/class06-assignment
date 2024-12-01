@@ -29,8 +29,8 @@ const ProjectCard = ({cardNo, cardTitle, cardParagraph, cardSpan, cardLink, card
         </div>
 
         {/* projct image  */}
-        <div className="lg:w-[670px] w-[100%]">
-            <Image src={cardImage} alt="project1"></Image>
+        <div className="lg:w-[670px] sm:w-[100%]">
+            <Image className="lg:h-[300px] md:h-[400px] sm:h-[300px] h-[200px]" src={cardImage} alt="project1"></Image>
         </div>
     </div>
   )
