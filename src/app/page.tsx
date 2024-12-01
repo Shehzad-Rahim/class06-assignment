@@ -9,18 +9,18 @@ export default function Work() {
 
       {/* hero section starts */}
 
-      <div className="flex px-20 items-center h-[70vh] gap-16">
-      <div className="w-[45%]">
-      <h1 className="text-6xl font-semibold text-[#181717]">
+      <div className="flex md:flex-row flex-col md:px-20 px-10 md:items-center justify-center sm:h-[70vh] h-[50vh] lg:gap-16 gap-8">
+      <div className="">
+      <h1 className="lg:text-6xl md:text-5xl sm:text-6xl text-4xl font-semibold text-[#181717]">
         Hello, I&apos;m <br /> Shehzad Rahim.
       </h1>
       </div>
-      <div className="w-[55%] flex text-xl mt-24">
+      <div className=" flex text-xl md:mt-24">
         <p className="font-semibold text-[#606060]">A Senior Web Development Student with the strong grip <br /> on Front-end web designing and development.</p>
       </div>
       </div>
-        <div className="px-20 -mt-10 mb-36">
-          <p className="text-5xl font-extrabold ">
+        <div className="md:px-20 px-10 sm:-mt-10 md:mb-36">
+          <p className="sm:text-5xl text-3xl font-extrabold ">
           <TiArrowDown />
           </p>
         </div>
@@ -30,8 +30,8 @@ export default function Work() {
         <ProjectCard 
         cardNo="01"
         cardTitle=" Dining On The Lack"
-        cardParagraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, atque."
-        cardSpan="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, atque."
+        cardParagraph="Thi is a food selling website which I created for a Russian client."
+        cardSpan="This project was really helpfull for my client and he really loved it."
         cardLink="More shots from This Project"
         cardImage={project1}
         />
@@ -43,8 +43,8 @@ export default function Work() {
         <ProjectCard 
         cardNo="02"
         cardTitle="Photo Studio"
-        cardParagraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, atque."
-        cardSpan="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, atque."
+        cardParagraph="This is my own photo studio website which I created for my business and Hired a team for my studio."
+        cardSpan="This website really helped me to grow my studio and reaching internationl clients "
         cardLink="More shots from This Project "
         cardImage={project2}/>
         <hr className="w-[88%] mx-auto h-0.5 bg-[#181717]" />
@@ -53,8 +53,8 @@ export default function Work() {
         <ProjectCard 
         cardNo="03"
         cardTitle="3D Book Protfolio"
-        cardParagraph="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, atque."
-        cardSpan="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, atque."
+        cardParagraph="This is a 3D book design portfolio with amzing page flip animation effects."
+        cardSpan="This is my personal portfolio which I created with HTML CSS and JavaScript."
         cardLink="More shots from This Project "
         cardImage={project3}/>
         
